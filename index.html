@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+
+       <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Techni'Sols — Revêtements de sols &amp; Peinture | Soissons</title>
+  <title>Techni'Sols — Revêtements de sols &amp; Peinture | Soissons &amp; Région parisienne</title>
   <style>
     :root {
       --bg: #f6f7f9;
@@ -258,14 +259,14 @@
   <main class="container">
     <section class="hero">
       <div class="hero-card">
-        <span class="badge">25 ans d'expérience • Soissons &amp; alentours</span>
+        <span class="badge">25 ans d'expérience • Soissons &amp; Région parisienne</span>
         <h1>Pose de revêtements de sols &amp; peinture intérieure</h1>
         <p>
-          Artisan de terrain à Soissons et dans l'Aisne, avec 25 ans d'expérience :
-          préparation rigoureuse des supports, pose soignée et finitions durables.
-          J'accompagne les particuliers sur leurs projets d'habitat ainsi que les
-          agences immobilières et gestionnaires de biens pour la remise en état
-          entre deux locations ou avant mise en vente.
+          Artisan à votre écoute à Soissons, dans l'Aisne et en région parisienne,
+          avec 25 ans d'expérience : préparation soignée des supports, pose propre et
+          finitions durables pour embellir votre intérieur. J'interviens principalement
+          chez les particuliers, ainsi qu'auprès des agences et gestionnaires de biens
+          pour des remises en état.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#devis">Demander un devis</a>
@@ -281,26 +282,24 @@
           <h3>Sols souples &amp; PVC</h3>
           <p>
             Pose de sols PVC en rouleaux, lames et dalles, moquettes et soudures à
-            chaud. Des solutions résistantes et faciles d'entretien, adaptées aux
-            logements comme aux locaux fréquentés.
+            chaud. Des revêtements confortables, résistants et faciles à vivre au
+            quotidien.
           </p>
         </article>
 
         <article class="card">
           <h3>Parquet &amp; Ragréage</h3>
           <p>
-            Ragréage tout support pour corriger les défauts et pose de parquet
-            flottant. Une préparation sérieuse à la base pour garantir la planéité
-            et la longévité de l'ouvrage.
+            Ragréage tout support et pose de parquet flottant. Une préparation sérieuse
+            du sol pour un rendu régulier et durable dans toutes les pièces.
           </p>
         </article>
 
         <article class="card">
-          <h3>Peinture &amp; Remise en état</h3>
+          <h3>Peinture &amp; Finitions</h3>
           <p>
-            Peinture intérieure et rafraîchissement de logements ou biens locatifs.
-            Un interlocuteur direct, des chantiers propres et des finitions nettes
-            pour livrer dans les temps.
+            Peinture intérieure et rafraîchissement des pièces de vie, chambres ou
+            logements à remettre en état, avec un chantier propre et soigné.
           </p>
         </article>
       </div>
@@ -310,9 +309,8 @@
       <h2>Demande de devis ou de renseignement</h2>
       <div class="contact-box">
         <p>
-          Que vous soyez particulier, agence immobilière ou gestionnaire de biens,
-          précisez votre besoin, la surface approximative, la ville et vos délais,
-          ou appelez-moi directement :
+          Indiquez votre projet, la surface approximative et votre commune (Soissons,
+          Aisne ou région parisienne), ou appelez-moi directement :
         </p>
 
         <div class="contact-direct">
@@ -322,8 +320,8 @@
 
         <form id="devis-form">
           <div class="form-group">
-            <label for="nom">Nom / Agence ou gestionnaire</label>
-            <input id="nom" name="nom" type="text" placeholder="Votre nom, agence ou gestionnaire" required />
+            <label for="nom">Votre nom</label>
+            <input id="nom" name="nom" type="text" placeholder="Votre nom (ou agence / gestionnaire)" required />
           </div>
 
           <div class="form-group">
@@ -332,17 +330,17 @@
               <option value="Sol PVC / Sol souple">Sol PVC / Sol souple</option>
               <option value="Moquette &amp; Soudure à chaud">Moquette &amp; Soudure à chaud</option>
               <option value="Ragréage &amp; Parquet flottant">Ragréage &amp; Parquet flottant</option>
-              <option value="Peinture intérieure &amp; Remise en état">Peinture intérieure &amp; Remise en état</option>
-              <option value="Plusieurs prestations / Remise en état complète">Plusieurs prestations / Remise en état complète</option>
+              <option value="Peinture intérieure &amp; Finitions">Peinture intérieure &amp; Finitions</option>
+              <option value="Plusieurs prestations">Plusieurs prestations</option>
             </select>
           </div>
 
           <div class="form-group">
-            <label for="details">Détails du chantier (surface, ville, délais)</label>
+            <label for="details">Détails du projet (pièces, surface, ville, délais)</label>
             <textarea
               id="details"
               name="details"
-              placeholder="Ex. : appartement ou maison à Soissons, environ 40 m² de sol PVC + peinture, disponibilités souhaitées..."
+              placeholder="Ex. : salon ou chambre à Soissons ou en région parisienne, environ 25 à 35 m² de parquet flottant ou sol PVC, pose ou peinture..."
               required
             ></textarea>
           </div>
@@ -355,7 +353,7 @@
   </main>
 
   <footer>
-    <div class="footer-line">Techni'Sols — Soissons (02200)</div>
+    <div class="footer-line">Techni'Sols — Soissons (02200) &amp; Région parisienne</div>
     <div class="footer-line">Tél. : <span class="nowrap">06 08 61 32 12</span> • rosay.laurent@yahoo.fr</div>
   </footer>
 
@@ -368,7 +366,7 @@
 
       const sujet = encodeURIComponent("Demande de devis Techni'Sols - " + prestation);
       const corps = encodeURIComponent(
-        "Bonjour,\n\nNom / Agence : " + nom +
+        "Bonjour,\n\nNom : " + nom +
         "\nPrestation : " + prestation +
         "\nDétails : " + details
       );
