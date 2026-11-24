@@ -1,0 +1,17 @@
+{
+  "name": "Techni'Sols",
+  "short_name": "Techni'Sols",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#142b36",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
