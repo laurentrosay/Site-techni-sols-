@@ -9,8 +9,13 @@
   "lang": "fr",
   "icons": [
     {
+      "src": "icon-204.png",
+      "sizes": "204x204",
+      "type": "image/png"
+    },
+    {
       "src": "favicon.png",
-      "sizes": "any",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
